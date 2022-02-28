@@ -95,6 +95,7 @@ export const Bikes = () => {
     let response = await api.user.getBikes(param);
     if (response.success) {
       setBikes(response.data.bikes);
+      console.log(response.data.bikes)
       setBikeRatings(response.data.ratingResult);
       loading.setLoading(false);
     }
