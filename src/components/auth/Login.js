@@ -127,7 +127,7 @@ export const Login = () => {
                 <Field
                   as={TextField}
                   margin='normal'
-                  label='Email Address or Username'
+                  label='Email Address or Username:(arun25)'
                   variant='filled'
                   required
                   fullWidth
@@ -140,7 +140,7 @@ export const Login = () => {
                 <Field
                   as={TextField}
                   margin='normal'
-                  label='Password'
+                  label='Password:(Arun1234)'
                   variant='filled'
                   type='password'
                   required
